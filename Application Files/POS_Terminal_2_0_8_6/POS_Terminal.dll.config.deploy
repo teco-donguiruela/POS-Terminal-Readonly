@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<configSections>
+  <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+   <section name="POS_Terminal.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+  </sectionGroup>
+ </configSections>
+ <connectionStrings>
+		<add name="con"
+    providerName="Microsoft.Data.SqlClient"
+    connectionString="Data Source=###;Initial Catalog=TGI;Persist Security Info=True;Trust Server Certificate=True;User ID=##;Password=#;MultipleActiveResultSets=True"/>
+	</connectionStrings>
+	<appSettings>
+    <add key="TelerikWinFormsThemeName" value="Fluent" />
+  </appSettings>
+ <applicationSettings>
+  <POS_Terminal.Properties.Settings>
+   <setting name="Version" serializeAs="String">
+    <value>v2.0.8.6</value>
+   </setting>
+  </POS_Terminal.Properties.Settings>
+ </applicationSettings>
+</configuration>
